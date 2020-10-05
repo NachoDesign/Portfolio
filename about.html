@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Nacho UX/UI Designer</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio Nacho Designer">
+    <meta name="keywords" content="personal, portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="cubeportfolio/css/cubeportfolio.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" />
+    <link rel="stylesheet" href="css/colors/red.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Google Web fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800" rel="stylesheet">
+
+    <!-- Font icons -->
+    <link rel="stylesheet" href="icon-fonts/fontawesome-5.0.6/css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="icon-fonts/flaticon/flaticon.css" />
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="images/Favicon.png" sizes="32x32" />
+
+    <!-- Fuera de web -->
+    <script>
+        var tituloOriginal = document.title;
+        window.onblur = function () {
+            document.title = "No te vayas 😭";
+        }
+        window.onfocus = function () {
+            document.title = tituloOriginal;
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <!-- PRELOADER -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader-inner"></div>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <header>
+        <img src="images/Logo_naxo_designer.svg" alt="Logo_Naxo_Designer">
+        <div class="nav-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- FULL MENU -->
+    <div class="full-menu">
+        <div class="full-inner row">
+            <nav class="col-md-8">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="about.html">Sobre mí</a></li>
+                    <!-- <li><a href="news.html">News</a></li> -->
+                    <li><a href="contact.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="col-md-4 full-contact">
+                <ul>
+                    <li class="title">Ponte en Contacto</li>
+                    <li><a href="mailto:naxodesigner@gmail.com">naxodesigner@gmail.com</a></li>
+                    <li>
+                        <div class="social">
+                            <a href="https://www.linkedin.com/in/nachodesigner" target="_blank"><i class="fab fa-linkedin"></i>  </a>
+                            <a href="https://vimeo.com/nachodesign" target="_blank"><i class="fab fa-vimeo" aria-hidden="true"></i>  </a>
+                            <a href="https://www.behance.net/nacho_gutierrez" target="_blank"><i class="fab fa-behance" aria-hidden="true"></i>  </a>
+                            <a href="https://medium.com/@naxodesigner" target="_blank"><i class="fab fa-medium" aria-hidden="true"></i>  </a>
+                            <a href="https://www.youtube.com/channel/UCGSyk6wkSXGNToPX_KRnvdw" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i>  </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- SITE CONTENT -->
+    <div class="wrapper">
+        <section class="titlebar">
+            <h1 class="page-title"><span>Sobre </span>mi</h1>
+            <div id="particles-js"></div>
+        </section>
+
+        <hr class="col-md-6 bottom_60">
+
+        <div class="cont">
+            <section class="about">
+                <!-- ABOUT TEXT -->
+                <div class="about-text text-center top_90">
+                    <h2 class="subtitle">Soy Nacho, diseñador multidisciplinar asentado en Madrid. Busco, analizo y obtengo soluciones
+                        para los usuarios y sobretodo sus necesidades.</h2><br>
+                    <p>En constante evolución y adaptación al exigente mundo digital.</p>
+                    <p>Mi mejor manera de aprender es analizar los errores, corregir, iterar y repetir el proceso constantemente.</p>
+                    <p>Apasionado del diseño y la tecnología.</p>
+                </div>
+                <!-- Load more -->
+                <div id="port-loadMore" class="cbp-l-loadMore-button top_120 bottom_90">
+                    <a href="pdf/NACHO_GUTIERREZ_CV.pdf" class="cbp-l-loadMore-link site-btn" rel="nofollow" target="_blank">
+                        <span class="cbp-l-loadMore-defaultText">Descargar CV</span>
+                    </a>
+                </div>
+                <!-- WORK AREAS -->
+                <div class="owl-carousel work-areas text-center top_120 bottom_90 col-md-10 offset-md-1"
+                    data-pagination="true" data-autoplay="3000" data-items-desktop="3" data-items-desktop-small="3"
+                    data-items-tablet="2" data-items-tablet-small="1">
+                    <!-- an area -->
+                    <div class="area col-md-12 item">
+                        <img src="images/Ux.svg" alt="Ux" class="carousel-img">
+                        <h3 class="title" class="title">Experiencia de Usuario</h3>
+                        <div class="line"></div>
+                        <p>Tu diseño tiene que explicarse y entenderse por si solo para que el usuario solo tenga que navegar o utilizar la app.</p>
+                    </div>
+                    <!-- an area -->
+                    <div class="area col-md-12 item">
+                        <img src="images/Product design.svg" alt="Product_design" class="carousel-img">
+                        <h3 class="title">Diseño de producto</h3>
+                        <div class="line"></div>
+                        <p>Añadir valor a los productos y servicios que nos rodean para mejorar la experiencia de los usuarios al utilizarlos.</p>
+                    </div>
+                    <!-- an area -->
+                    <div class="area col-md-12 item">
+                        <img src="images/wireframes.svg" alt="Wireframes" class="carousel-img">
+                        <h3 class="title">Diseño de interfaces</h3>
+                        <div class="line"></div>
+                        <p>Plasmar las ideas de un proceso de investigación en una interfaz limpia, eficiente e intuitiva.</p>
+                    </div>
+                    <!-- an area -->
+                    <div class="area col-md-12 item">
+                        <i class="flaticon-024-computer-graphic"></i>
+                        <h3 class="title" class="title">Motion Graphics</h3>
+                        <div class="line"></div>
+                        <p>Dotar de dinamismo a cualquier gráfico creativo. Ya sea para una aplicación, una web o un vídeo, el movimiento es vida.</p>
+                    </div>
+                    <!-- an area -->
+                    <div class="area col-md-12 item">
+                        <i class="flaticon-025-graphic-design"></i>
+                        <h3 class="title">Ilustración</h3>
+                        <div class="line"></div>
+                        <p>La creatividad es plasmar una idea en un formato digital o físico. Y la ilustración es decorarla de la mejor
+                            manera posible.</p>
+                    </div>
+                    <!-- an area -->
+                    <div class="area col-md-12 item">
+                        <img src="images/3D.svg" alt="cubo_3D" class="carousel-img">
+                        <h3 class="title">3D</h3>
+                        <div class="line"></div>
+                        <p>La posibilidad de crear espacios, entornos, elementos o cualquier cosa que puedas imaginar.</p>
+                    </div>
+                </div>
+
+                <div class="programas">
+
+
+                </div>
+
+                <!-- WORK AREAS -->
+                <div class="clients">
+                    <h2 class="subtitle">Programas que utilizo</h2>
+                    <br>
+                    <div class="row">
+                        <!-- client -->
+                        <div class="col-md-3 col-sm-6 client">
+                            <figure>
+                                <img src="images/figma.svg">
+                            </figure>
+                        </div>
+                        <!-- client -->
+                        <div class="col-md-3 col-sm-6 client">
+                            <figure>
+                                <img src="images/sketch.svg">
+                            </figure>
+                        </div>
+                        <!-- client -->
+                        <div class="col-md-3 col-sm-6 client">
+                            <figure>
+                                <img src="images/invision.svg">
+                            </figure>
+                        </div>
+                        <!-- client -->
+                        <div class="col-md-3 col-sm-6 client">
+                            <figure>
+                                <img src="images/principle.svg">
+                            </figure>
+                        </div>
+                        <!-- client -->
+                        <div class="col-md-3 col-sm-6 client">
+                            <figure>
+                                <img src="images/photoshop.svg">
+                            </figure>
+                        </div>
+                        <!-- client -->
+                        <div class="col-md-3 col-sm-6 client">
+                            <figure>
+                                <img src="images/adobe-illustrator.svg">
+                            </figure>
+                        </div>
+                        <!-- client -->
+                        <div class="col-md-3 col-sm-6 client">
+                            <figure>
+                                <img src="images/after-effects.svg">
+                            </figure>
+                        </div>
+                        <!-- client -->
+                        <div class="col-md-3 col-sm-6 client">
+                            <figure>
+                                <img src="images/3ds-max.svg">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="clients">
+                    <h2 class="subtitle">Clientes con los que he trabajado</h2>
+                    <div class="row">
+                        <!-- client -->
+                        <div class="col-md-3 col-sm-6 client">
+                            <figure>
+                                <img src="images/clients/Comunio.jpg">
+                            </figure>
+                        </div>
+                        <!-- client -->
+                        <div class="col-md-3 col-sm-6 client">
+                            <figure>
+                                <img src="images/clients/gillette.png">
+                            </figure>
+                        </div>
+                        <!-- client -->
+                        <div class="col-md-3 col-sm-6 client">
+                            <figure>
+                                <img src="images/clients/GSK.png">
+                            </figure>
+                        </div>
+                        <!-- client -->
+                        <div class="col-md-3 col-sm-6 client">
+                            <figure>
+                                <img src="images/clients/laliga.png">
+                            </figure>
+                        </div>
+                        <!-- client -->
+                        <div class="col-md-3 col-sm-6 client">
+                            <figure>
+                                <img src="images/clients/minijuegos.png">
+                            </figure>
+                        </div>
+                        <!-- client -->
+                        <div class="col-md-3 col-sm-6 client">
+                            <figure>
+                                <img src="images/clients/Orange.png">
+                            </figure>
+                        </div>
+                        <!-- client -->
+                        <div class="col-md-3 col-sm-6 client">
+                            <figure>
+                                <img src="images/clients/Santander.png">
+                            </figure>
+                        </div>
+                        <!-- client -->
+                        <div class="col-md-3 col-sm-6 client">
+                            <figure>
+                                <img src="images/clients/siemens.png">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div> <!-- cont end -->
+    </div> <!-- wrapper end -->
+
+    <footer>
+        <div class="cont">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12 copyright">
+                    <img src="images/Logo portfolio grande negro.svg" alt="">
+                    <p>© 2020 Nacho Gutiérrez - Diseñador multidisciplinar</p>
+                </div>
+                <div class="col-md-4 d-sm-none d-md-block">
+                    <div class="social">
+                        <a href="https://www.linkedin.com/in/nachodesigner" target="_blank"><i class="fab fa-linkedin"></i>  </a>
+                        <a href="https://vimeo.com/nachodesign" target="_blank"><i class="fab fa-vimeo" aria-hidden="true"></i>  </a>
+                        <a href="https://www.behance.net/nacho_gutierrez" target="_blank"><i class="fab fa-behance" aria-hidden="true"></i>  </a>
+                        <a href="https://medium.com/@naxodesigner" target="_blank"><i class="fab fa-medium" aria-hidden="true"></i>  </a>
+                        <a href="https://www.youtube.com/channel/UCGSyk6wkSXGNToPX_KRnvdw" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i>  </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 d-none d-sm-block getintouch">
+                    <strong>Estamos en contacto</strong><br>
+                    <p>naxodesigner@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Javascripts -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+    <script src="js/typed.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/jquery.hover3d.js"></script>
+    <script src="twitter-api/tweetie.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
